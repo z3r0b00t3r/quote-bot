@@ -50,7 +50,7 @@ bot = commands.Bot(command_prefix=CMD, intents=intents)
 # READY #
 @bot.event
 async def on_ready():
-  print('DwarfBot ready!')
+  print('quoteBot ready!')
   await bot.change_presence(activity=DEFAULT_ACTIVITY,
                             status=discord.Status.online)
 
