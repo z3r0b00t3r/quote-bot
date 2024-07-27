@@ -17,7 +17,7 @@ QUOTES = open('quotes.txt').read().splitlines()
 TRIGGERS = open('triggers.txt').read().splitlines()
 
 DEFAULT_ACTIVITY = discord.Activity(type=discord.ActivityType.playing,
-                                    name="Deep Rock Galactic")
+                                    name="Albion Online")
 
 ##### HELPERS (cooldown) #####
 COOLDOWN_SEC = 60 * 5
